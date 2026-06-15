@@ -1,0 +1,15 @@
+# clearance sale
+def clearance() :
+
+    # we introduce a variable amount
+    s = 0
+    prices = list(map(int ,input().split()))
+    for i in prices :
+        # check a negative number
+        if i < 0 :
+            # add the number
+            s += i
+    # we output the number in the module
+    print(abs(s))
+
+clearance()
